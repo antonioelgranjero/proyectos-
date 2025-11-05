@@ -1,0 +1,89 @@
+#encabezado{
+    display:inline ;
+    background-color: rgb(112, 219, 85);
+    height: 15%;
+    left: 0;
+    right: 0;
+    top:0;
+    position: fixed;
+}
+#redireccionesEncabezado{
+    display:inline;
+    position:fixed;
+    width: 60% ;
+    text-align: center ;
+    align-items: center ;
+    top: 5.5%;
+    left:15%; 
+}
+#botonR1{
+    float: left;
+}
+#botonR2{
+    float: center ;
+}
+#botonR3{
+   float: right;
+}
+.imagenpag1{
+    display:inline;
+    width:15%; 
+    position:fixed;
+    float:left;
+    top:3.5%;
+} 
+
+.botonR{
+    transition: background-color 0.3s ease; 
+    transition: box-shadow 0.3s ease; 
+    border-radius:3px;
+    border-width: 0px;
+    background-color:rgb(112, 219, 85);
+    color:white;
+    width:150px; 
+    height:25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.botonR:hover{
+    background-color: rgb(121, 236, 92);
+    box-shadow: 0.01rem 0.01rem 0.25rem 0.25rem rgb(31, 102, 13) ;
+}
+#datosMascota{
+    display: flex ;
+    display:grid;
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    position: relative ; 
+    padding: 20px ;
+    width: 20% ;
+    margin:40px auto ; 
+    border-radius:10px; 
+}
+#datosMascota h1 {
+    color :rgb(56, 107, 46) ;
+
+}
+.datosMascota{
+    height: 25px ;
+    border : 2px solid;
+    border-color: rgb(124, 124, 124);
+    border-radius: 5px;   
+}
+footer {
+    background-color:rgb(161, 161, 161)  ;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    width:100%; 
+    left:0; 
+    height:7%; 
+}
+footer p { 
+    display:inline;
+    float: left ; 
+}
+footer a { 
+    display:block ; 
+    float: right ; 
+}
