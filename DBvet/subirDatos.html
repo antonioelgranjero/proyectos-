@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir datos</title>
+    <!-- conexion con el archivo css-->
+    <link rel="stylesheet" href="estilosPaginas.css"/>
+</head>
+<body>
+    <!--encabezado de la pagina con los botones para volver o redireccionar a las otras paginas  -->
+    <section class="encabezado">
+        <a href="pag1.html"><button type="submit" class="botonR" id="botonVolver" >volver a inicio</button> </a>
+    </section>
+    <!--formulario para el ingreso de datos de las respectivas citas  -->
+    <section id="formSubirDatos"> 
+        <!--este formulario se ingresaran los datos resultados de la cita , tendra la fecha que sera de ingreso manual igual que la id de la mascota 
+        , la id del veterinario tambien sera de ingreso manual , la id de la cita sera un dato autoincrementado en la base de datos  -->
+        <form action="subirDatos.php" method="post" >
+            <h1>Datos de la consulta</h1>
+            <input class="espacioSubirDatos" type="text" id="" name="id_Mascota" placeholder="Id mascota"/> 
+                <br/>
+                <br/>
+            <input class="espacioSubirDatos" type="text" id="" name="idVeterinario"  placeholder="Id veterinario"/> 
+                <br/>
+                <br/>
+            <input class="espacioSubirDatos" type="date" id="" name="fechaCita"  placeholder="Fecha"/> 
+                <br/>
+                <br/>
+            <textarea class="" type="text" id="descripcionCita" name="descripcionCita"  placeholder="Descripcion" rows="10"> </textarea>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            <button type="submit" class="botonR" id="botonR1">Completar </button>  
+                
+            <button type="reset" class="botonR" id="botonR3">cancelar</button>
+        </form>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!--pie de pagina  -->
+    <section id="pieDePagina">
+        <footer> 
+            <p> copyright 2025 </p>
+            <br/>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">contactanos</a>
+        </footer>
+    </section>
+</body>
+</html>

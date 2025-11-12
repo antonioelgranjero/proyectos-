@@ -1,0 +1,96 @@
+#bienvenida {
+    text-align: center ;
+    display: block;
+    color :rgb(56, 107, 46) ;
+    font-size: 30px ;
+    
+}
+
+#bienvenida h5 {
+    font-size: 15px ;
+    text-align: center;
+}
+body{
+    background-image: url(img_doc/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#iniciarSesion{
+    display: flex ;
+    display:grid;
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    position: relative ; 
+    padding: 20px ;
+    width: 20% ;
+    margin:40px auto ; 
+    border-radius:10px; 
+}
+
+.espacioParaDatos{
+    height: 25px ;
+    border : 2px solid;
+    border-color: rgb(124, 124, 124);
+    border-radius: 5px;   
+}
+footer {
+    background-color:rgb(161, 161, 161)  ;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    width:100%; 
+    left:0; 
+    height:7%; 
+}
+footer p { 
+    display:inline;
+    float: left ; 
+}
+footer a { 
+    display:block ; 
+    float: right ; 
+}
+.boton{
+    transition: background-color 0.3s ease ; 
+    border : 1px solid ; 
+    border-color:rgb(124, 124, 124); 
+    border-radius: 3px ;
+    background-color: rgb(61, 171, 175);
+    width: 100px ;
+    height: 25px ;
+    color:white; 
+    cursor: pointer;
+}
+.boton:hover{
+    background-color:rgb(68, 191, 196) ;
+}
+#recuperarContraseña{
+    color: rgb(124, 124, 124);
+
+}
+#imagenDBvet {  
+    width: 120px;
+    height: 55px;
+}
+#imagenDBvet2 {  
+
+    display: grid;
+    width: 120px;
+    height: 55px;
+    margin: 10px auto ; 
+}
+#ingresoDeDatos{
+    display: flex ;
+    display:grid;
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    position: relative ; 
+    padding: 20px ;
+    width: 20% ;
+    margin:40px auto ; 
+    border-radius:10px; 
+}
+#ingresoDeDatos h1 {
+    color :rgb(56, 107, 46) ;
+
+}

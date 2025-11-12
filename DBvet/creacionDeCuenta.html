@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <title>crear cuenta DBVET</title>
+   <link rel="stylesheet" href="estilos.css" />
+</head>
+    <body>
+     <img src="img_doc/logoDBvet6.png" id="imagenDBvet2"/>
+     <section id="ingresoDeDatos">
+         <h1> Crear Cuenta </h1>
+         <!-- espacio para crea los espacios donde el usuario ingresara sus datos 
+         por hacer : enviar los datos a la db -->
+         <form class="Formulario_de_creacion" id="Formulario_de_creacion"  action="crearCuenta.php" method="post" >
+             <input class="espacioParaDatos" type="text" id="Ingresar_Nombre" name="Ingresar_Nombre" placeholder="Nombre"  /> 
+             <br/>
+             <br/>
+             <input class="espacioParaDatos" type="text" id="Ingresar_apellido" name="Ingresar_apellido" placeholder="Apellido" /> 
+             <br/>
+             <br/>
+             <input class="espacioParaDatos" type="text" id="Ingresar_gmail" name="Ingresar_gmail" placeholder="Gmail" /> 
+             <br/> 
+             <br/>
+             <input class="espacioParaDatos" type="text" id="Ingresar_contacto" name="Ingresar_contacto" placeholder="DNI" /> 
+             <br/>
+             <br/>
+             <input class="espacioParaDatos" type="password" id="Ingresar_codigo_de_seguridad" name="Ingresar_codigo_de_seguridad" placeholder="Contrasena" /> 
+             <br/>
+             <br/>
+             <input class="espacioParaDatos" type="password" id="confirmacion_codigo" name="confirmacion_codigo" placeholder="Confirmar contrasena"  /> 
+             <br/>
+             <br/>
+                 <button type="submit" class="boton">Completar </button> 
+                    <br/>
+                    <br/>
+                 <button type="reset" class="boton">Cancelar </button>
+
+          </form>
+     </section>
+     <section id="pieDePagina">
+        <footer> 
+            <p> copyright 2025 </p>
+            <br/>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">contactanos</a>
+        </footer>
+
+    </section>
+    </body>
+</html>
