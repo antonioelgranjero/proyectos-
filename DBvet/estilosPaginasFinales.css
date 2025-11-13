@@ -1,3 +1,4 @@
+/*imagen de fondo*/
 body{
     background-image: url(img_doc/fondo2.jpg) ;
     background-repeat: no-repeat;
@@ -7,6 +8,7 @@ body{
 .titulo{
     color :rgb(56, 107, 46) ;
 }
+/*estilos de los botones de volver */
 .boton{
     transition: background-color 0.3s ease ; 
     border : 1px solid ; 

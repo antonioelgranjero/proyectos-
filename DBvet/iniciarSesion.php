@@ -30,7 +30,7 @@ if (!$stmt) {
 $stmt->bind_param("s", $dni);
 $stmt->execute();
 $result = $stmt->get_result();
-
+//si el usuario ingresado no existe se mostrara el mensaje de error 
 if ($result->num_rows === 0) {
     echo "No existe un usuario con ese DNI.";
     $stmt->close();
@@ -48,7 +48,7 @@ if (password_verify($contrasena, $hashGuardado)) {
     //Contraseña correcta
     $_SESSION['usuario_dni'] = $usuario['dni'];
     $_SESSION['usuario_nombre'] = $usuario['nombre'];
-
+    //si todo el proceso fue correcto se redigira a la pagina principal de la web
     header("Location: pag1.html");
     exit;
 } else {

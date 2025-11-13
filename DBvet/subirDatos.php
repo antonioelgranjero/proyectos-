@@ -35,7 +35,6 @@ if ($result->num_rows > 0) {
 
      //si todo el proceso fue correcto , se muestra una pagina html
      if ($stmt_insert->execute()) {
-        // ✅ Redirigir si todo fue correcto
         header("Location: subirDatosConfirmar.html");
         exit();
     } else {

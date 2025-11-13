@@ -1,3 +1,4 @@
+/*estilos de la pagina de inicio de sesion y de registro de nuevo usuario*/
 #bienvenida {
     text-align: center ;
     display: block;
@@ -10,11 +11,13 @@
     font-size: 15px ;
     text-align: center;
 }
+/*imagen de fondo de las paginas */
 body{
     background-image: url(img_doc/fondo.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*estilos del formunario de iniciar sesion*/
 #iniciarSesion{
     display: flex ;
     display:grid;
@@ -26,13 +29,14 @@ body{
     margin:40px auto ; 
     border-radius:10px; 
 }
-
+/*estilos de los input*/
 .espacioParaDatos{
     height: 25px ;
     border : 2px solid;
     border-color: rgb(124, 124, 124);
     border-radius: 5px;   
 }
+/*pie de pagina*/
 footer {
     background-color:rgb(161, 161, 161)  ;
     display: block;
@@ -50,6 +54,7 @@ footer a {
     display:block ; 
     float: right ; 
 }
+/*estilos de los botones y sus transiciones */
 .boton{
     transition: background-color 0.3s ease ; 
     border : 1px solid ; 
@@ -64,10 +69,7 @@ footer a {
 .boton:hover{
     background-color:rgb(68, 191, 196) ;
 }
-#recuperarContraseña{
-    color: rgb(124, 124, 124);
-
-}
+/*imagenes del logo de dbvet*/
 #imagenDBvet {  
     width: 120px;
     height: 55px;
@@ -79,6 +81,7 @@ footer a {
     height: 55px;
     margin: 10px auto ; 
 }
+/*estilos del formulario de creacion de cuenta */
 #ingresoDeDatos{
     display: flex ;
     display:grid;

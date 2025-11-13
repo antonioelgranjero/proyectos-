@@ -146,6 +146,7 @@ footer a {
     border-color: rgb(124, 124, 124);
     border-radius: 5px;   
 }
+/*estilos del apartado de consultar historial*/
 #descripcionCita{
     display:block ;
     float: left ;
