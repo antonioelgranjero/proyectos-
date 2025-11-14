@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html >
-<head>
-   <title>DBVET</title>
-   <!--conexion con el archivo css-->
-   <link rel="stylesheet" href="estilosPaginas.css" />
-</head>
+    <head>
+        <title>DBVET</title>
+        <!--conexion con el archivo css-->
+        <link rel="stylesheet" href="estilosPaginas.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
     <body>
-        <!--encabezado de la pagina con las funciones principales de esta ,este siempre quedara fijo arriba -->
+        <!--encabezado de la pagina con las funciones principales de esta, este siempre quedara fijo arriba -->
         <!--se crea una sub seccion para separar los a de las demas funciones que se aguregaran en un futuro en este apartado  -->
+    
         <section class="encabezado">
-            <!--botones para redireccionar hacia las demas paginas -->
+            <!-- botones para redireccionar hacia las demas paginas -->
+          <img id="imagenDBvetPag1" src="img_doc/logoDBvet6.png"/> 
             <section id="redireccionesEncabezado">
-                <a class="redireccionesEncabezado"  href="consultarHistorial.html"> <button class="botonR" id="botonR1"> Consultar historial</button> </a>
-                <a class="redireccionesEncabezado" href="subirDatos.html"> <button class="botonR" id="botonR2"> Subir datos </button> </a>
-                <a class="redireccionesEncabezado" href="crearMascota.html"><button class="botonR" id="botonR3">Crear paciente</button> </a>
+                
+                <a class="redireccionesEncabezado" href="consultarHistorial.html"> <button class="botonR" id="botonR1"> <i class="fa-solid fa-magnifying-glass"></i> Consultar historial  </button> </a>
+                <a class="redireccionesEncabezado" href="subirDatos.html"> <button class="botonR" id="botonR2"> <i class="fa-solid fa-calendar-check"></i> Agendar cita </button> </a>
+                <a class="redireccionesEncabezado" href="crearMascota.html"><button class="botonR" id="botonR3"> <i class="fa-solid fa-house-chimney-medical"></i> Crear paciente</button> </a>
+        
+            </section>
         </section>
-            <img id="imagenDBvetPag1" src="img_doc/logoDBvet6.png"/>
-        <section id="descripcion">
-        </section>
-        <!--pie de pagina  -->
+
+        <!-- pie de pagina  -->
         <section id="pieDePagina">
-             <footer> 
-              <p> copyright 2025 </p>
-                <br/>
-             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">contactanos</a>
-             </footer>
+            <footer> 
+                <p> Copyright 2025 &copy; </p>
+                
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1">Contáctanos <i class="fa-regular fa-address-book"></i></a>
+            </footer>
         </section>
+
     </body>
+
 </html>

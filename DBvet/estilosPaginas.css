@@ -1,75 +1,74 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
 /*Estilos de los encabezados utilizados para todas las paginas de la web */
 .encabezado{
-    display:inline ;
-    background-color: rgb(112, 219, 85);
-    height: 15%;
+    display: flex;
+    top: 0;
     left: 0;
-    right: 0;
-    top:0;
-    position: fixed;
+    width: 100%;
+    height: 80px; 
+    background-color: #33a354; /* Fondo verde oscuro */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    align-items: center;
 }
 /*imagen de fondo para el body*/
 body {
     background-image: url(img_doc/fondo3.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-
+    min-height: 100vh
 }
 /*estilos de los a utilizados en los encabezados */
 #redireccionesEncabezado{
-    display:inline;
-    position:fixed;
-    width: 60% ;
-    text-align: center ;
-    align-items: center ;
-    top: 5.5%;
-    left:15%; 
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
 }
-/*estilos de los botones utilizados en los encabezados  */
-#botonR1{
-    float: left;
-}
-#botonR2{
-    float: center ;
-}
-#botonR3{
-   float: right;
-}
+
 .botonR{
-    transition: background-color 0.3s ease; 
-    transition: box-shadow 0.3s ease; 
-    border-radius:3px;
-    border-width: 0px;
-    background-color:rgb(112, 219, 85);
-    color:white;
-    width:150px; 
-    height:25px;
-    font-size: 17px;
+    background-color: #f4f5f0; 
+    color: rgb(0, 112, 60); 
+    border: 3px solid transparent;
+    padding: 8px 18px;   
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: background-color 0.3s, opacity 0.3s;
+    white-space: nowrap;
 }
 .botonR:hover{
-    background-color: rgb(121, 236, 92);
-    box-shadow: 0.01rem 0.01rem 0.25rem 0.25rem rgb(31, 102, 13) ;
+    background-color: rgb(187, 224, 130);
+   /* box-shadow: -0.28rem 0.1rem rgb(255, 255, 255);*/
+    border: 3px solid rgb(255, 255, 255);
+    
+
+
 }
 /* estilos especificos de los botones de volver a inicio*/
 #botonVolver{
-    transform:translatey(120%);
+    position: relative;
+    margin-left: 20px;
 }
 /*Botones de los formularios*/
 .boton{
-    display:block; 
-
+    display: block; 
 }
 
 /*estilo de la imagen de dbvet ubicada en el encabezado de las paginas  */
 #imagenDBvetPag1{
-    width:15%; 
-    top:10px;
-    left:10px;
-    display: block;
-    float: left;
-    transform: translateY(35%);
+    height: 2.1rem; 
+    object-fit: contain;
+    margin: 0px 70px;
 } 
+
+#pg_menu_confirmacion {
+    background-image: url(img_doc/fondo2.jpg);
+}
 /*estilos de los input que se utilizan para ingresar los datos en los diferentes apartados */
 .datosMascotaSeccion{
     display: flex ;
@@ -102,21 +101,29 @@ body {
 }
 /*estilos del pie de pagina utilizado en lodas las paginas de la web  */
 footer {
-    background-color:rgb(161, 161, 161)  ;
-    display: block;
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.349));
+    display: flex;
     bottom: 0;
     position: fixed;
     width:100%; 
-    left:0; 
     height:7%; 
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 footer p { 
-    display:inline;
-    float: left ; 
+    align-content: center;
+    left: 0;
+    color: #109204;
+    font-weight: 600;
+    padding-left: 15px;
 }
 footer a { 
     display:block ; 
-    float: right ; 
+    margin-right: 1rem;
+    font-weight: 600;
+    color: #3d81c0;
+    right: 0;
 }
 /*estilos del formulario usado para subir datos en la pagina de subir datos  */
 #formSubirDatos{
@@ -155,3 +162,4 @@ footer a {
     border-color: rgb(124, 124, 124);
     border-radius: 5px; 
 }
+
